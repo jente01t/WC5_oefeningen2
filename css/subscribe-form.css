@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+
+div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+}
+
+form {
+    margin-top: 1em;
+    display: flex;
+}
+
+form > * {
+    padding: 1rem;
+}
+
+label {
+    position: absolute;
+    left: -9999999px;
+}
+
+input {
+    flex: 1;
+    color: cornflowerblue;
+    outline: none;
+    border: 1px solid lightblue;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    margin-left: 0.5em;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: navy;
+}
+
+button:active {
+    font-weight: bold;
+}
