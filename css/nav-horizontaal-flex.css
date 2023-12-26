@@ -13,6 +13,7 @@ body {
     padding: 0;
     margin: 0;
     display: flex;
+    flex-direction: row;
 }
 
 .nav li {
@@ -21,6 +22,11 @@ body {
 
 .nav li:nth-child(1) {
     border-left: 1px solid black;
+}
+
+.home {
+    flex-grow: 1;
+    display: flex;
 }
 
 .nav a {
@@ -38,3 +44,4 @@ body {
     background-color: white;
     color: black;
 }
+
