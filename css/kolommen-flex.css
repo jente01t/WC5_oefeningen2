@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e9e581;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-header, .page-footer {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-footer .container {
+    padding: 2rem 1rem;
+    text-align: right;
+}
+
+.page-header .container {
+    padding: 5rem 1rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    text-align: justify;
+    padding: 1rem;
+}
+
+.col2 {
+    flex-basis: 50%;
+}
+
+.col3 {
+    flex-basis: 33.3333%;
+}
+
+img.fw {
+    padding: 1rem;
+    border-radius: 100px 0 100px;
+}
+
+#chat {
+    background: url(../images/chat.png) no-repeat center/cover;
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 1rem;
+    text-indent: -9999px;
+  }
+  
