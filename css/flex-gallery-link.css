@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery {
+    background-color: #efefef;
+    max-width: 75rem;
+    padding: 1rem;
+    margin: auto;
+}
+
+.gallery ul, .gallery li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.gallery li {
+    flex: 1 1 378.666px;
+    background: #eee;
+    position: relative;
+}
+
+.movie-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+}
+
+.movie-title:hover {
+    opacity: 1;
+}
+
